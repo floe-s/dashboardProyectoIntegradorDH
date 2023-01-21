@@ -18,6 +18,7 @@
 @media screen and (max-width: 768px)
 {
   .Cards{
-    width: 90%;
+    width: 50%;
+    padding-left: 15rem;
   }
 }

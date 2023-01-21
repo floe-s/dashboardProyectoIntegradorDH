@@ -33,6 +33,14 @@ th {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 25rem;
+    width: 20rem;
+    padding-left: 15rem;
+
+  }
+}
+@media screen and (max-width: 480px)
+{
+  .Table{
+    padding-left: 10rem;
   }
 }

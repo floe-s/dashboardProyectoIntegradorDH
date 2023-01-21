@@ -1,0 +1,13 @@
+@media screen and (max-width: 768px)
+{
+  .Ranking{
+    padding-left: 15rem;
+  }
+}
+
+/* @media screen and (max-width: 480px)
+{
+  .Ranking{
+    padding-left: 5rem;
+  }
+} */

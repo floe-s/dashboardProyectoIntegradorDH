@@ -1,5 +1,6 @@
 import React from 'react';
 import Chart from 'react-apexcharts';
+import './Ranking.css';
 
 
 const Ranking = () => {

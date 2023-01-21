@@ -17,4 +17,9 @@
   .MainDash{
       align-items: center;
   }
+
+  .MainDash > h1{
+    align-items: center;
+    padding-left: 15rem;
+}
 }
