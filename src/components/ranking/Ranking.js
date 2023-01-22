@@ -8,7 +8,7 @@ const Ranking = () => {
   const data = {
     series: [
       {
-        name: "Ranking",
+        name: "Cantidad",
         data: [3, 1, 2, 6, 4],
       },
     ],
