@@ -19,7 +19,7 @@ th {
   color: #00b5ff !important;
 }
 
-@media screen and (max-width: 1200px) {
+@media (max-width: 1200px) {
   .Table {
     width: 170%;
     margin-top: 2rem;
@@ -27,20 +27,17 @@ th {
 }
 
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .Table{
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 20rem;
-    padding-left: 15rem;
-
+    width: 24rem;
   }
-}
-@media screen and (max-width: 480px)
-{
-  .Table{
-    padding-left: 10rem;
+
+  .Table > h3 {
+    margin-left: 2%;
+    font-size: 16px;
   }
 }

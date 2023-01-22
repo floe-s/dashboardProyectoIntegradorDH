@@ -23,10 +23,11 @@
   font-weight: bold;
 }
 
-@media screen and (max-width: 768px)
+@media (max-width: 768px)
 {
-  .Updates>div{
-    padding-left: 15rem;
+  .Updates{
+    width: 15rem;
+    margin-left: 40%;
       
   }
 }

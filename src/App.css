@@ -12,8 +12,7 @@
 }
 
 .App {
-  /* padding: 0.5rem 3.5rem; */
-  color: var(--black);
+  color: #242d49;;
   background: linear-gradient(
     106.37deg,
     #ffe1bc 29.63%,
@@ -33,21 +32,21 @@
   display: grid;
   height: 97%;
   width: 97%;
-  background: var(--glass);
+  background: rgba(255, 255, 255, 0.54);
   border-radius: 2rem;
   gap: 16px;
   grid-template-columns: 11rem auto 20rem;
   overflow: hidden;
 }
 
-@media screen and (max-width: 1200px) {
+@media (max-width: 1200px) {
   .AppGlass{
     grid-template-columns: 10% 50% auto;
     overflow-y: scroll;
   } 
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .AppGlass{
     grid-template-columns: 1fr;
   } 

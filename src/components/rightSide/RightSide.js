@@ -15,7 +15,6 @@ const RightSide = () => {
         <h3>Cursos por Tema</h3>
         <Ranking/>
       </div>
-
     </div>
     ) 
 }

@@ -69,7 +69,7 @@
 
 
 /* Tablets */
-@media screen and (max-width: 1200px) {
+@media (max-width: 1200px) {
   .menuItem>span{
     display: none;
   }
@@ -78,7 +78,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .sidebar{
     position: fixed;
     z-index: 9;

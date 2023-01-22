@@ -8,11 +8,9 @@ import CardUsers from '../card/CardUsers';
 const Cards = () => {
   return(
     <div className="Cards">
-          <div className="parentContainer">
             <CardProducts/>
             <CardIncome/>
             <CardUsers/>
-          </div>
     </div>
   )
 }

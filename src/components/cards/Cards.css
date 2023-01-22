@@ -2,25 +2,10 @@
   display: flex;
   gap: 10px;
 }
-.parentContainer{
-  width: 100%;
-  display: flex;
-  gap: 10px;
-}
 
-@media screen and (max-width: 1200px) {
+@media (max-width: 1200px) {
   .Cards{
     flex-direction: column;
   }
-  .parentContainer{
-    height: 9rem;
-  }
 }
 
-@media screen and (max-width: 768px)
-{
-  .Cards{
-    width: 50%;
-    padding-left: 15rem;
-  }
-}

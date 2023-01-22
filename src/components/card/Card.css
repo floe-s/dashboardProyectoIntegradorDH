@@ -1,6 +1,3 @@
-/* .Cards {
-  display: flex;
-} */
 .CompactCard {
   display: flex;
   flex: 1;
@@ -62,13 +59,13 @@
   font-weight: bold;
 }
 
-/* @media screen and (max-width: 1200px) {
-  .Cards{
+/* @media (max-width: 1200px) {
+  .CompactCard{
     flex-direction: column;
   }
 }
 
-@media screen and (max-width: 768px)
+@media (max-width: 768px)
 {
   .Cards{
     width: 50%;

@@ -4,7 +4,7 @@ import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 import {UilUsdSquare} from "@iconscout/react-unicons";
 
-// parent Card
+
 const CardIncome = () => {
 
   const [data, setData] = useState([]);
