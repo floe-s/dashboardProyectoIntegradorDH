@@ -32,7 +32,7 @@ function CompactCard({ param}) {
       <div className="detail">
         <Png />
         <span>{param.value}</span>
-        <span>Últimas 24 horas</span>
+        <span>Cantidad Total</span>
       </div>
       </div>
   );

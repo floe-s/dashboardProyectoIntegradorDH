@@ -1,3 +1,6 @@
+/* .Cards {
+  display: flex;
+} */
 .CompactCard {
   display: flex;
   flex: 1;
@@ -37,7 +40,7 @@
 }
 
 .radialBar > span {
-  font-size: 17px;
+  font-size: 18px;
   font-weight: bold;
 }
 
@@ -51,9 +54,24 @@
 }
 
 .detail > span:nth-child(2) {
-  font-size: 22px;
+  font-size: 24px;
   font-weight: bold;
 }
 .detail > span:nth-child(3) {
   font-size: 12px;
+  font-weight: bold;
 }
+
+/* @media screen and (max-width: 1200px) {
+  .Cards{
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px)
+{
+  .Cards{
+    width: 50%;
+    padding-left: 15rem;
+  }
+} */

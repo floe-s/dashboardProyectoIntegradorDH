@@ -9,7 +9,7 @@ const Ranking = () => {
     series: [
       {
         name: "Ranking",
-        data: [1, 2, 3, 4, 5],
+        data: [3, 1, 2, 6, 4],
       },
     ],
     options: {
@@ -49,7 +49,7 @@ const Ranking = () => {
             colors: ['#fff']
           },
           xaxis: {
-            categories: ['South Korea', 'Canada', 'United Kingdom', 'Netherlands', 'Italy'
+            categories: ['Inglés', 'Español', 'Coreano', 'Portugués', 'Alemán'
             ],
             labels: {
               show: false

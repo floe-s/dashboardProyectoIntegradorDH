@@ -8,11 +8,11 @@ const RightSide = () => {
   return (
     <div className="RightSide">
       <div>
-        <h3>Updates</h3>
+        <h3>Últimos Usuarios Registrados</h3>
         <Updates/>
       </div>
       <div>
-        <h3>Ranking</h3>
+        <h3>Cursos por Tema</h3>
         <Ranking/>
       </div>
 
