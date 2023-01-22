@@ -1,0 +1,20 @@
+.Footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.copy {
+  bottom: 0;
+  width: 100%;
+  padding-left: 1rem;
+}
+
+@media (max-width: 768px) {
+  
+  .copy {
+    margin-left: 40%;
+    padding-top: 3rem;
+    font-size: 12px;
+  }
+}
