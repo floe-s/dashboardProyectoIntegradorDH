@@ -31,8 +31,8 @@ function CompactCard({ param}) {
       </div>
       <div className="detail">
         <Png />
-        <span>${param.value}</span>
-        <span>Last 24 hours</span>
+        <span>{param.value}</span>
+        <span>Últimas 24 horas</span>
       </div>
       </div>
   );

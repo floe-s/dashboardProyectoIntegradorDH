@@ -2,6 +2,7 @@ import React from 'react';
 import './Updates.css';
 import { UpdatesData } from "../../data/Data";
 
+
 const Updates = () => {
   return (
     <div className="Updates">
@@ -12,7 +13,7 @@ const Updates = () => {
             <div className="noti">
               <div  style={{marginBottom: '0.5rem'}}>
                 <span>{update.name}</span>
-                <span> {update.noti}</span>
+                <span> {update.last}</span>
               </div>
                 <span>{update.time}</span>
             </div>

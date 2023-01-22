@@ -30,10 +30,10 @@ export default function BasicTable() {
       <Table sx={{ minWidth: 650 }} aria-label="simple table">
         <TableHead>
           <TableRow>
-            <TableCell>Product</TableCell>
-            <TableCell align="left">Tracking Id</TableCell>
-            <TableCell align="left">Date</TableCell>
-            <TableCell align="left">Status</TableCell>
+           <TableCell align="left">Id</TableCell>
+            <TableCell>Curso</TableCell>
+            <TableCell align="left">Fecha Creación</TableCell>
+            <TableCell align="left">Profesor/a</TableCell>
             <TableCell align="left"></TableCell>
           </TableRow>
         </TableHead>
@@ -49,7 +49,7 @@ export default function BasicTable() {
               <TableCell align="left">{row.trackingId}</TableCell>
               <TableCell align="left">{row.date}</TableCell>
               <TableCell align="left">{row.status}</TableCell>
-              <TableCell align="left" className='details'>Detail</TableCell>
+              <TableCell align="left" className='details'>Detalle</TableCell>
             </TableRow>
           ))}
         </TableBody>
