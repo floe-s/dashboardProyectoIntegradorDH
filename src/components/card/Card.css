@@ -1,7 +1,7 @@
 .CompactCard {
   display: flex;
   flex: 1;
-  height: 7rem !important;
+  height: 6rem !important;
   border-radius: 0.7rem;
   color: white;
   padding: 1rem;
@@ -58,17 +58,3 @@
   font-size: 12px;
   font-weight: bold;
 }
-
-/* @media (max-width: 1200px) {
-  .CompactCard{
-    flex-direction: column;
-  }
-}
-
-@media (max-width: 768px)
-{
-  .Cards{
-    width: 50%;
-    padding-left: 15rem;
-  }
-} */

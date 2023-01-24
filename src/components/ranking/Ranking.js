@@ -1,9 +1,27 @@
 import React from 'react';
+import {useState, useEffect} from 'react';
 import Chart from 'react-apexcharts';
 import './Ranking.css';
 
 
 const Ranking = () => {
+
+  const [subject, setSubject] = useState([]);
+
+  useEffect(() => {
+    fetch('http://localhost:3002/api/all-products')
+    .then(res => { return res.json()
+    .then(curso => {
+      console.log(curso);
+      setSubject(curso.data)
+    })
+    .catch(error =>
+      console.log(error)
+    )
+    }) 
+  }, [])
+
+  console.log(subject);
 
   const data = {
     series: [

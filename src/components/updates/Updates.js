@@ -1,21 +1,39 @@
-import React from 'react';
+import React, {useState, useEffect}  from 'react';
 import './Updates.css';
-import { UpdatesData } from "../../data/Data";
+import img1 from "../../img/urban-user.png";
 
 
 const Updates = () => {
+  const [users, setUsers] = useState([]);
+
+  useEffect(() => {
+    fetch('http://localhost:3002/api/all-users')
+    .then(res => { return res.json()
+    .then(curso => {
+      console.log(curso);
+      setUsers(curso.data)
+    })
+    .catch(error =>
+      console.log(error)
+    )
+    }) 
+  }, [])
+
+  console.log(users);
+
+
   return (
     <div className="Updates">
-      {UpdatesData.map((update) => {
+      {users.map((update) => {
         return (
           <div className="update">
-            <img src={update.img} alt="profile" />
+            <img src={img1} alt="profile" />
             <div className="noti">
               <div  style={{marginBottom: '0.5rem'}}>
-                <span>{update.name}</span>
-                <span> {update.last}</span>
+                <span>{update.nombre}</span>
+                <span> {update.apellido}</span>
               </div>
-                <span>{update.time}</span>
+                <span>{update.email}</span>
             </div>
           </div>
         );
