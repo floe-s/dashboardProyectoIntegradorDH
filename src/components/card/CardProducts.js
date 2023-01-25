@@ -10,7 +10,7 @@ const CardProducts = () => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:3002/api/all-products')
+    fetch('https://moidi-grupo6.onrender.com/api/all-products')
     .then(response => response.json())
     .then(datos => {
             console.log(datos)

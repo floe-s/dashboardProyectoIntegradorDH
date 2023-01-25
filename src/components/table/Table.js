@@ -6,7 +6,7 @@ const Table = () => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:3002/api/all-products')
+    fetch('https://moidi-grupo6.onrender.com/api/all-products')
     .then(res => { return res.json()
     .then(curso => {
       console.log(curso);
